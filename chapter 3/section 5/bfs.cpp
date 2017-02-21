@@ -15,8 +15,6 @@ int maze[N][N] = {
 
 int visited[N + 1] = { 0, };
 
-
-
 void bfs(int start) {
 	queue<int> Q;
 	Q.push(start);
@@ -38,11 +36,6 @@ void bfs(int start) {
 	}
 
 }
-
-
-
-
-
 
 int main(int args, char**argv) {
 	for (int i = 1; i <= N; i++)
