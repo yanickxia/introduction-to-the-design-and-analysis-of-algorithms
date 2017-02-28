@@ -24,7 +24,7 @@ def lexicographically_next_permutation(a):
 #############################################################################
 
 if __name__ == "__main__":
-    li = ['a', 'b', 'c']
+    li = ['1', '2', '2', '3']
     print(li)
     while lexicographically_next_permutation(li):
         print(li)
